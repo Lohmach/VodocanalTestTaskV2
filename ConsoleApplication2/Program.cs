@@ -80,6 +80,8 @@ namespace VodokanalTestTask
             for (int i = 0; i < sortHeight.Count; i++) { writer(sortHeight[i]); }
             Console.WriteLine("___________________________________________");
 
+            Console.WriteLine("\nНажмите любую кнопку, что бы закрыть консоль");
+            Console.ReadKey();
         }
 
 
